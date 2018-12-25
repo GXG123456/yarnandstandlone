@@ -40,6 +40,7 @@ public class Sparkonyarn {
                                                   public void call(Iterator<Row> it) {
                                                       while (it.hasNext()){
                                                           System.out.println(it.next().toString());
+                                                          ////**/
                                                       }
                                                   }
                                               }
