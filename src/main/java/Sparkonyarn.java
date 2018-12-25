@@ -40,12 +40,10 @@ public class Sparkonyarn {
                                                   public void call(Iterator<Row> it) {
                                                       while (it.hasNext()){
                                                           System.out.println(it.next().toString());
-                                                          ////**/
                                                       }
                                                   }
                                               }
         );
-
      //这个只是为了看spark执行的时候的执行情况，不让页面消除
 
             Thread.sleep(1000000);
